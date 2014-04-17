@@ -1,0 +1,2698 @@
+[
+  {
+    "position":[
+      "Copywriter",
+      "Software Engineer",
+      "Copywriter"
+    ],
+    "name":"SoftRock",
+    "position-range":{
+      "Copywriter":[
+        12000,
+        16000
+      ],
+      "Software Engineer":[
+        45000,
+        85000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Computer Technician",
+      "Project Manager"
+    ],
+    "name":"Custom Computer Specialists",
+    "position-range":{
+      "Project Manager":[
+        67000,
+        88000
+      ],
+      "Computer Technician":[
+        36000,
+        42000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Systems Analyst",
+      "Database Administrator",
+      "Systems Engineer/Architect"
+    ],
+    "name":"uReveal",
+    "position-range":{
+      "Systems Analyst":[
+        41000,
+        45000
+      ],
+      "Systems Engineer/Architect":[
+        44000,
+        47000
+      ],
+      "Database Administrator":[
+        37000,
+        46000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Associate Software Engineer",
+      "Senior Consultant"
+    ],
+    "name":"Misys",
+    "position-range":{
+      "Senior Consultant":[
+        208125000,
+        208191000
+      ],
+      "Associate Software Engineer":[
+        208500000,
+        208600000
+      ],
+      "Software Engineer":[
+        208550000,
+        208780000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer"
+    ],
+    "name":"EXIT41",
+    "position-range":{
+      "Software Engineer":[
+        79000,
+        87000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Computer Programmer"
+    ],
+    "name":"CyberObject",
+    "position-range":{
+      "Computer Programmer":[
+        41000,
+        46000
+      ],
+      "Software Engineer":[
+        53000,
+        76000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Scientist",
+      "Software Engineering",
+      "Analytics, QA Engineer"
+    ],
+    "name":"ID Analytics",
+    "position-range":{
+      "Scientist":[
+        88000,
+        118000
+      ],
+      "Software Engineering":[
+        19000,
+        21000
+      ],
+      "Analytics, QA Engineer":[
+        77000,
+        87000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Developer",
+      "Software Engineer",
+      "Director of IT"
+    ],
+    "name":"Noteworthy Medical Systems",
+    "position-range":{
+      "Director of IT":[
+        96000,
+        104000
+      ],
+      "Software Developer":[
+        55000,
+        77000
+      ],
+      "Software Engineer":[
+        48000,
+        55000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Software Engineer - Computer Applications",
+      "Computer Software Engineer, Applications"
+    ],
+    "name":"Saven Technologies",
+    "position-range":{
+      "Software Engineer - Computer Applications":[
+        85000,
+        112000
+      ],
+      "Computer Software Engineer, Applications":[
+        75000,
+        100000
+      ],
+      "Software Engineer":[
+        65000,
+        100000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Computer Programmer",
+      "Software Engineer",
+      "Programmer"
+    ],
+    "name":"M & R Consultants Corporation.",
+    "position-range":{
+      "Programmer":[
+        54000,
+        62000
+      ],
+      "Computer Programmer":[
+        45000,
+        110000
+      ],
+      "Software Engineer":[
+        55000,
+        120000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Master Instructor",
+      "Market Research Analyst"
+    ],
+    "name":"Oberon",
+    "position-range":{
+      "Master Instructor":[
+        75000,
+        86000
+      ],
+      "Software Engineer":[
+        45000,
+        56000
+      ],
+      "Market Research Analyst":[
+        44000,
+        47000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Developer"
+    ],
+    "name":"Civica",
+    "position-range":{
+      "Software Developer":[
+        34000,
+        38000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Applications Engineer"
+    ],
+    "name":"PS Technology",
+    "position-range":{
+      "Applications Engineer":[
+        76000,
+        83000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Engineer II",
+      "Sales Representative",
+      "Social Media Specialist"
+    ],
+    "name":"Web.com Inc",
+    "position-range":{
+      "Engineer II":[
+        61000,
+        64000
+      ],
+      "Sales Representative":[
+        30000,
+        50000
+      ],
+      "Social Media Specialist":[
+        10000,
+        13000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Applications Engineer",
+      "Staff Engineer",
+      "Staff Software Engineer"
+    ],
+    "name":"Zenverge",
+    "position-range":{
+      "Applications Engineer":[
+        58000,
+        105000
+      ],
+      "Staff Engineer":[
+        85000,
+        100000
+      ],
+      "Staff Software Engineer":[
+        100000,
+        111000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Applications Engineer",
+      "Accountant"
+    ],
+    "name":"Onestop Internet",
+    "position-range":{
+      "Senior Software Engineer":[
+        89000,
+        135000
+      ],
+      "Applications Engineer":[
+        63000,
+        98000
+      ],
+      "Accountant":[
+        48000,
+        52000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Applications Support Engineer"
+    ],
+    "name":"Velocify",
+    "position-range":{
+      "Applications Support Engineer":[
+        53000,
+        67000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Principal Wireless Architect"
+    ],
+    "name":"AirTight Networks",
+    "position-range":{
+      "Principal Wireless Architect":[
+        126000,
+        142000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Developer",
+      "Director, Development"
+    ],
+    "name":"Wimba",
+    "position-range":{
+      "Software Developer":[
+        53000,
+        75000
+      ],
+      "Director, Development":[
+        111000,
+        134000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "User Support Analyst"
+    ],
+    "name":"Keno Kozie Associates",
+    "position-range":{
+      "User Support Analyst":[
+        31000,
+        67000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Mechatronics Engineer",
+      "Mechatronics Engineer"
+    ],
+    "name":"Servo Tech Inc",
+    "position-range":{
+      "Mechatronics Engineer":[
+        27000,
+        27000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Software Engineer",
+      "Software Engineer"
+    ],
+    "name":"Vital Images",
+    "position-range":{
+      "Senior Software Engineer":[
+        71000,
+        105000
+      ],
+      "Software Engineer":[
+        27000,
+        33000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Product Support Analyst",
+      "Quantitative Analyst",
+      "Software Engineer"
+    ],
+    "name":"Imagine Software",
+    "position-range":{
+      "Quantitative Analyst":[
+        60000,
+        100000
+      ],
+      "Product Support Analyst":[
+        38000,
+        80000
+      ],
+      "Software Engineer":[
+        100000,
+        140000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Technical Recruiting Manager",
+      "Agile Engineer"
+    ],
+    "name":"Pivotal Labs",
+    "position-range":{
+      "Agile Engineer":[
+        80000,
+        98000
+      ],
+      "Technical Recruiting Manager":[
+        70000,
+        70000
+      ],
+      "Software Engineer":[
+        80000,
+        120000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Operations Team Lead",
+      "Software Engineer"
+    ],
+    "name":"Azaleos",
+    "position-range":{
+      "Operations Team Lead":[
+        91000,
+        135000
+      ],
+      "Software Engineer":[
+        82000,
+        99000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Senior Engineer",
+      "Senior Database Administrator"
+    ],
+    "name":"Logicworks",
+    "position-range":{
+      "Senior Engineer":[
+        70000,
+        110000
+      ],
+      "Senior Database Administrator":[
+        97000,
+        119000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Sales",
+      "Engineering Manager"
+    ],
+    "name":"DR Systems, Inc",
+    "position-range":{
+      "Sales":[
+        65000,
+        70000
+      ],
+      "Engineering Manager":[
+        77000,
+        98000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Programmer Analyst",
+      "Systems Analyst",
+      "Computer Programmer"
+    ],
+    "name":"Complete Solutions",
+    "position-range":{
+      "Systems Analyst":[
+        42000,
+        44000
+      ],
+      "Programmer Analyst":[
+        48000,
+        105000
+      ],
+      "Computer Programmer":[
+        80000,
+        86000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Information Security Engineer",
+      "Programmer"
+    ],
+    "name":"OnPoint Consulting",
+    "position-range":{
+      "Programmer":[
+        61000,
+        67000
+      ],
+      "Information Security Engineer":[
+        65000,
+        73000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Programmer Analyst",
+      "Software Application Developer"
+    ],
+    "name":"Idea Entity",
+    "position-range":{
+      "Software Application Developer":[
+        66000,
+        75000
+      ],
+      "Programmer Analyst":[
+        57000,
+        62000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Programmer/Analyst",
+      "Programmer Analyst",
+      "Business Analyst"
+    ],
+    "name":"Marlabs",
+    "position-range":{
+      "Business Analyst":[
+        60000,
+        84000
+      ],
+      "Programmer Analyst":[
+        60000,
+        89000
+      ],
+      "Programmer/Analyst":[
+        60000,
+        89000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Principal Software Engineer",
+      "Cloud Engineer"
+    ],
+    "name":"Zscaler",
+    "position-range":{
+      "Senior Software Engineer":[
+        119000,
+        135000
+      ],
+      "Cloud Engineer":[
+        100000,
+        114000
+      ],
+      "Principal Software Engineer":[
+        130000,
+        165000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Engineering Specialist"
+    ],
+    "name":"General Dynamics Robotic Systems",
+    "position-range":{
+      "Senior Software Engineer":[
+        77000,
+        85000
+      ],
+      "Engineering Specialist":[
+        104000,
+        127000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Technical Support Ninja",
+      "ECommerce Business Consultant",
+      "Account Executive"
+    ],
+    "name":"BigCommerce",
+    "position-range":{
+      "ECommerce Business Consultant":[
+        38000,
+        41000
+      ],
+      "Account Executive":[
+        40000,
+        44000
+      ],
+      "Technical Support Ninja":[
+        17000,
+        20000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Software Engineer",
+      "Research Scientist"
+    ],
+    "name":"Facebook",
+    "position-range":{
+      "Research Scientist":[
+        110000,
+        165000
+      ],
+      "Software Engineer":[
+        64800,
+        100800
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Account Associate"
+    ],
+    "name":"Bayshore Solutions",
+    "position-range":{
+      "Account Associate":[
+        40000,
+        47000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Programmer Analyst"
+    ],
+    "name":"Coalescent Technologies",
+    "position-range":{
+      "Programmer Analyst":[
+        65000,
+        90000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Research Scientist",
+      "Research Engineer",
+      "Software Engineer"
+    ],
+    "name":"Willow Garage",
+    "position-range":{
+      "Research Engineer":[
+        100000,
+        120000
+      ],
+      "Research Scientist":[
+        95000,
+        135000
+      ],
+      "Software Engineer":[
+        87000,
+        137000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Regional Sales Manager",
+      "Consultant",
+      "Software Developer"
+    ],
+    "name":"Taleo",
+    "position-range":{
+      "Software Developer":[
+        58000,
+        200000
+      ],
+      "Consultant":[
+        78000,
+        87000
+      ],
+      "Regional Sales Manager":[
+        40000,
+        110000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Programmer",
+      "Software Engineer",
+      "Software Programmer"
+    ],
+    "name":"Indus Valley Partners",
+    "position-range":{
+      "Programmer":[
+        48000,
+        83000
+      ],
+      "Software Programmer":[
+        60000,
+        80000
+      ],
+      "Software Engineer":[
+        65000,
+        86000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Staff Accountant"
+    ],
+    "name":"ISI Detention",
+    "position-range":{
+      "Staff Accountant":[
+        38000,
+        41000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Web Print Marketing Designer"
+    ],
+    "name":"CoreBlox",
+    "position-range":{
+      "Web Print Marketing Designer":[
+        37000,
+        42000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Sales Associate"
+    ],
+    "name":"Atlantix Global Systems",
+    "position-range":{
+      "Sales Associate":[
+        24000,
+        26000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Business Process Developer",
+      "Senior Consultant/Project Manager"
+    ],
+    "name":"Sword Ciboodle",
+    "position-range":{
+      "Senior Consultant/Project Manager":[
+        95000,
+        103000
+      ],
+      "Business Process Developer":[
+        53000,
+        70000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Inside Sales Representative",
+      "Member of Technical Staff",
+      "Account Executive"
+    ],
+    "name":"Meraki",
+    "position-range":{
+      "Inside Sales Representative":[
+        50000,
+        120000
+      ],
+      "Account Executive":[
+        60000,
+        100000
+      ],
+      "Member of Technical Staff":[
+        62000,
+        110000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Computer Software Eng, Systems Software"
+    ],
+    "name":"Sorenson Media",
+    "position-range":{
+      "Computer Software Eng, Systems Software":[
+        77000,
+        86000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Computer Programmer"
+    ],
+    "name":"EVIDON",
+    "position-range":{
+      "Computer Programmer":[
+        57000,
+        73000
+      ],
+      "Software Engineer":[
+        85000,
+        97000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Simulation Engineer",
+      "Senior Programmer",
+      "Project Manager"
+    ],
+    "name":"Telvent",
+    "position-range":{
+      "Project Manager":[
+        80000,
+        100000
+      ],
+      "Senior Programmer":[
+        73000,
+        73000
+      ],
+      "Simulation Engineer":[
+        52000,
+        75000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Systems Development Senior Specialist",
+      "Systems Development Consultant"
+    ],
+    "name":"Xerox Heritage",
+    "position-range":{
+      "Systems Development Senior Specialist":[
+        80000,
+        110000
+      ],
+      "Systems Development Consultant":[
+        91000,
+        109000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Applications Engineer",
+      "Quality Assurance Specialist"
+    ],
+    "name":"Wazana Brothers",
+    "position-range":{
+      "Quality Assurance Specialist":[
+        72000,
+        78000
+      ],
+      "Applications Engineer":[
+        58000,
+        64000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Systems Engineer"
+    ],
+    "name":"Equilibrium IT Solutions",
+    "position-range":{
+      "Systems Engineer":[
+        57000,
+        73000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Programmer Analyst",
+      "Programmer/Analyst",
+      "Software Engineer"
+    ],
+    "name":"Symphony",
+    "position-range":{
+      "Programmer Analyst":[
+        70000,
+        90000
+      ],
+      "Software Engineer":[
+        70000,
+        86000
+      ],
+      "Programmer/Analyst":[
+        50000,
+        120000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Software Engineer",
+      "Systems Analyst"
+    ],
+    "name":"Neumeric Technologies",
+    "position-range":{
+      "Systems Analyst":[
+        28000,
+        38000
+      ],
+      "Software Engineer":[
+        27000,
+        37000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Product Manager",
+      "Senior Software Engineer"
+    ],
+    "name":"AMADEUS NORTH AMERICA, INC.",
+    "position-range":{
+      "Senior Software Engineer":[
+        94000,
+        107000
+      ],
+      "Software Engineer":[
+        83000,
+        90000
+      ],
+      "Product Manager":[
+        70000,
+        107000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Test Engineer",
+      "Systems Consultant",
+      "Management/Business Analyst"
+    ],
+    "name":"Vertex (Pennsylvania)",
+    "position-range":{
+      "Test Engineer":[
+        70000,
+        76000
+      ],
+      "Management/Business Analyst":[
+        43000,
+        46000
+      ],
+      "Systems Consultant":[
+        90000,
+        100000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Rails Developer"
+    ],
+    "name":"Milyoni",
+    "position-range":{
+      "Senior Rails Developer":[
+        111000,
+        120000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Programmer Analyst",
+      "Business Analyst",
+      "Software Engineer"
+    ],
+    "name":"Strategic Resources Incorporated",
+    "position-range":{
+      "Business Analyst":[
+        51000,
+        74000
+      ],
+      "Programmer Analyst":[
+        43000,
+        77000
+      ],
+      "Software Engineer":[
+        54000,
+        90000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Developer"
+    ],
+    "name":"Transfinder",
+    "position-range":{
+      "Software Developer":[
+        52000,
+        55000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "QA Support Engineer",
+      "Software Engineer",
+      "Quality Assurance Engineer"
+    ],
+    "name":"EcoFactor",
+    "position-range":{
+      "Quality Assurance Engineer":[
+        74000,
+        86000
+      ],
+      "Software Engineer":[
+        88000,
+        115000
+      ],
+      "QA Support Engineer":[
+        67000,
+        83000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Developer",
+      "Software Engineer",
+      "Senior Systems Administrator"
+    ],
+    "name":"LOYAL3",
+    "position-range":{
+      "Senior Systems Administrator":[
+        95000,
+        104000
+      ],
+      "Software Developer":[
+        80000,
+        120000
+      ],
+      "Software Engineer":[
+        83000,
+        130000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Business Analyst",
+      "Software Engineer",
+      "Search Marketing Specialist"
+    ],
+    "name":"Efficient Frontier",
+    "position-range":{
+      "Search Marketing Specialist":[
+        45000,
+        50000
+      ],
+      "Business Analyst":[
+        68000,
+        100000
+      ],
+      "Software Engineer":[
+        70000,
+        115000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Web Developer"
+    ],
+    "name":"rtCamp",
+    "position-range":{
+      "Web Developer":[
+        249768,
+        250020
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Financial Analyst",
+      "Analyst",
+      "Associate Analyst"
+    ],
+    "name":"XL Dynamics India Pvt.",
+    "position-range":{
+      "Financial Analyst":[
+        208300000,
+        208400000
+      ],
+      "Analyst":[
+        208250000,
+        20835000
+      ],
+      "Associate Analyst":[
+        208359000,
+        208400000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Publisher Relations Manager",
+      "Sales Engineer/Product Manager"
+    ],
+    "name":"Chartboost",
+    "position-range":{
+      "Publisher Relations Manager":[
+        95000,
+        108000
+      ],
+      "Sales Engineer/Product Manager":[
+        96000,
+        104000
+      ],
+      "Software Engineer":[
+        100000,
+        110000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Enterprise Architect"
+    ],
+    "name":"SkyMall",
+    "position-range":{
+      "Senior Enterprise Architect":[
+        98000,
+        105000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Developer",
+      "Implementation Consultant",
+      "Implementation Specialist"
+    ],
+    "name":"Tyler Technologies",
+    "position-range":{
+      "Implementation Specialist":[
+        41000,
+        75000
+      ],
+      "Implementation Consultant":[
+        42000,
+        85000
+      ],
+      "Software Developer":[
+        55000,
+        87000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Systems Engineer",
+      "NOC Engineer"
+    ],
+    "name":"Network Data Systems",
+    "position-range":{
+      "NOC Engineer":[
+        43000,
+        65000
+      ],
+      "Systems Engineer":[
+        96000,
+        110000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Design Engineer",
+      "Marketing",
+      "Accountant"
+    ],
+    "name":"YES",
+    "position-range":{
+      "Marketing":[
+        25046400,
+        249900
+      ],
+      "Design Engineer":[
+        249720,
+        250140
+      ],
+      "Accountant":[
+        25020000,
+        250200
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Systems Analyst",
+      "Business Analyst",
+      "Demand Planning and S&amp;Op Engineer"
+    ],
+    "name":"Steelwedge Software",
+    "position-range":{
+      "Demand Planning and S&amp;Op Engineer":[
+        119000,
+        131000
+      ],
+      "Systems Analyst":[
+        65000,
+        80000
+      ],
+      "Business Analyst":[
+        77000,
+        83000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer"
+    ],
+    "name":"Smule",
+    "position-range":{
+      "Software Engineer":[
+        80000,
+        161000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Engineering",
+      "Software Engineer",
+      "Software Engineer I"
+    ],
+    "name":"Minitab",
+    "position-range":{
+      "Software Engineer I":[
+        59000,
+        59000
+      ],
+      "Software Engineer":[
+        60000,
+        65000
+      ],
+      "Software Engineering":[
+        20000,
+        25000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Analytics Engineer",
+      "Senior Analyst"
+    ],
+    "name":"Lattice Engines",
+    "position-range":{
+      "Senior Analyst":[
+        90000,
+        100000
+      ],
+      "Analytics Engineer":[
+        70000,
+        106000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Senior Software Engineer"
+    ],
+    "name":"PathPartner Technology",
+    "position-range":{
+      "Senior Software Engineer":[
+        208191000,
+        208542000
+      ],
+      "Software Engineer":[
+        208325000,
+        208500000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Account Executive III",
+      "Associate Network Analyst",
+      "Analyst"
+    ],
+    "name":"Windstream Communications",
+    "position-range":{
+      "Account Executive III":[
+        25000,
+        82000
+      ],
+      "Analyst":[
+        37000,
+        49000
+      ],
+      "Associate Network Analyst":[
+        40000,
+        45000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Network Engineer"
+    ],
+    "name":"Tech-Source",
+    "position-range":{
+      "Network Engineer":[
+        38000,
+        42000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Senior Consultant",
+      "Computer Systems Analyst"
+    ],
+    "name":"Birst",
+    "position-range":{
+      "Senior Software Engineer":[
+        93000,
+        109000
+      ],
+      "Senior Consultant":[
+        110000,
+        135000
+      ],
+      "Computer Systems Analyst":[
+        81000,
+        115000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Computer Programmer"
+    ],
+    "name":"Technomedia",
+    "position-range":{
+      "Computer Programmer":[
+        45000,
+        52000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Vibration Analyst"
+    ],
+    "name":"ITR Group",
+    "position-range":{
+      "Vibration Analyst":[
+        62000,
+        71000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Engineer",
+      "Operations Engineer"
+    ],
+    "name":"Counsyl",
+    "position-range":{
+      "Engineer":[
+        125000,
+        140000
+      ],
+      "Operations Engineer":[
+        87000,
+        94000
+      ],
+      "Software Engineer":[
+        120000,
+        140000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Custom Design Engineer"
+    ],
+    "name":"QuickLogic",
+    "position-range":{
+      "Custom Design Engineer":[
+        72000,
+        78000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Engineer"
+    ],
+    "name":"Douban",
+    "position-range":{
+      "Software Engineer":[
+        6171780,
+        6172056
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Senior Software Developer",
+      "Account Executive",
+      "Research Director"
+    ],
+    "name":"Gartner",
+    "position-range":{
+      "Senior Software Developer":[
+        80000,
+        105000
+      ],
+      "Account Executive":[
+        42000,
+        120000
+      ],
+      "Research Director":[
+        110000,
+        180000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "J2EE Software Engineer",
+      "Senior J2EE Technical Consultant"
+    ],
+    "name":"RKV Technologies",
+    "position-range":{
+      "J2EE Software Engineer":[
+        92000,
+        96000
+      ],
+      "Senior J2EE Technical Consultant":[
+        97000,
+        105000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Senior Software Engineer"
+    ],
+    "name":"Beatnik",
+    "position-range":{
+      "Senior Software Engineer":[
+        80000,
+        105000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Programmer Analyst",
+      "Quality Assurance Analyst",
+      "Software Engineer"
+    ],
+    "name":"Everest Technologies",
+    "position-range":{
+      "Programmer Analyst":[
+        68000,
+        98000
+      ],
+      "Software Engineer":[
+        80000,
+        125000
+      ],
+      "Quality Assurance Analyst":[
+        79000,
+        86000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Recruiter"
+    ],
+    "name":"Equity Staffing Group",
+    "position-range":{
+      "Recruiter":[
+        30000,
+        70000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Systems Technician",
+      "Server Analyst II",
+      "Abuse Response Analyst"
+    ],
+    "name":"HostDime.com",
+    "position-range":{
+      "Abuse Response Analyst":[
+        10000,
+        12000
+      ],
+      "Systems Technician":[
+        10000,
+        11000
+      ],
+      "Server Analyst II":[
+        10000,
+        15000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Product Manager",
+      "Software Engineer",
+      "Game Artist"
+    ],
+    "name":"TinyCo",
+    "position-range":{
+      "Game Artist":[
+        46000,
+        54000
+      ],
+      "Software Engineer":[
+        83000,
+        90000
+      ],
+      "Product Manager":[
+        89000,
+        175000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Chief Financial Officer",
+      "Programmer Analyst"
+    ],
+    "name":"Antenna Research Associates",
+    "position-range":{
+      "Programmer Analyst":[
+        66000,
+        74000
+      ],
+      "Chief Financial Officer":[
+        144000,
+        167000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Systems Engineer",
+      "Engineer",
+      "Hardware Engineer II"
+    ],
+    "name":"XKL",
+    "position-range":{
+      "Engineer":[
+        119000,
+        134000
+      ],
+      "Systems Engineer":[
+        54000,
+        73000
+      ],
+      "Hardware Engineer II":[
+        67000,
+        74000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Project Manager",
+      "Optical Engineer",
+      "Director"
+    ],
+    "name":"AboveNet",
+    "position-range":{
+      "Project Manager":[
+        92000,
+        95000
+      ],
+      "Director":[
+        159000,
+        189000
+      ],
+      "Optical Engineer":[
+        87000,
+        93000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Senior Technical Consultant",
+      "Software Engineer"
+    ],
+    "name":"Yodlee",
+    "position-range":{
+      "Senior Software Engineer":[
+        89000,
+        127000
+      ],
+      "Senior Technical Consultant":[
+        100000,
+        113000
+      ],
+      "Software Engineer":[
+        80000,
+        120000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Systems Engineer",
+      "Community Management Specialist",
+      "Systems Programmer Analyst"
+    ],
+    "name":"Perfect World Entertainment",
+    "position-range":{
+      "Community Management Specialist":[
+        16000,
+        18000
+      ],
+      "Systems Programmer Analyst":[
+        63000,
+        63000
+      ],
+      "Systems Engineer":[
+        55000,
+        90000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Software Engineer IV",
+      "Software QA Engineer"
+    ],
+    "name":"Cisco Systems",
+    "position-range":{
+      "Software QA Engineer":[
+        61000,
+        155000
+      ],
+      "Software Engineer IV":[
+        88000,
+        148000
+      ],
+      "Software Engineer":[
+        69000,
+        155000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Architect and Project Manager"
+    ],
+    "name":"Estalea",
+    "position-range":{
+      "Software Architect and Project Manager":[
+        120000,
+        129000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Programmer Analyst"
+    ],
+    "name":"Harvard Consulting",
+    "position-range":{
+      "Programmer Analyst":[
+        86000,
+        93000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Trainer",
+      "Business Analyst"
+    ],
+    "name":"Motionsoft",
+    "position-range":{
+      "Business Analyst":[
+        38000,
+        47000
+      ],
+      "Software Trainer":[
+        29000,
+        47000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Software Engineer"
+    ],
+    "name":"Learn.com",
+    "position-range":{
+      "Software Engineer":[
+        56000,
+        72000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Development Engineer",
+      "Senior Software Development Engineer",
+      "Program Manager"
+    ],
+    "name":"RealNetworks",
+    "position-range":{
+      "Program Manager":[
+        67000,
+        110000
+      ],
+      "Software Development Engineer":[
+        64000,
+        105000
+      ],
+      "Senior Software Development Engineer":[
+        88000,
+        120000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Software Research Engineer"
+    ],
+    "name":"ChaCha",
+    "position-range":{
+      "Senior Software Engineer":[
+        85000,
+        103000
+      ],
+      "Software Research Engineer":[
+        76000,
+        86000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Help Desk Analyst"
+    ],
+    "name":"ISS Solutions",
+    "position-range":{
+      "Help Desk Analyst":[
+        12000,
+        13000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Software Developer",
+      "Programmer/Analyst"
+    ],
+    "name":"DISYS",
+    "position-range":{
+      "Software Developer":[
+        68000,
+        115000
+      ],
+      "Programmer/Analyst":[
+        56000,
+        80000
+      ],
+      "Software Engineer":[
+        80000,
+        130000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Regional Manager - Latin America",
+      "Regional Manager Latin America",
+      "Vice President Latin America"
+    ],
+    "name":"AVEVA",
+    "position-range":{
+      "Regional Manager Latin America":[
+        87000,
+        93000
+      ],
+      "Vice President Latin America":[
+        125000,
+        151000
+      ],
+      "Regional Manager - Latin America":[
+        102000,
+        124000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Project Manager - Localization",
+      "Senior Software Engineer",
+      "Technical Consultant"
+    ],
+    "name":"SDL plc",
+    "position-range":{
+      "Senior Software Engineer":[
+        82000,
+        123000
+      ],
+      "Technical Consultant":[
+        65000,
+        94000
+      ],
+      "Project Manager - Localization":[
+        39000,
+        57000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Manager",
+      "Computer Programmer",
+      "Software Engineer"
+    ],
+    "name":"Healthline",
+    "position-range":{
+      "Manager":[
+        58000,
+        95000
+      ],
+      "Computer Programmer":[
+        57000,
+        66000
+      ],
+      "Software Engineer":[
+        63000,
+        72000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Mechanical Engineer",
+      "Software Engineer"
+    ],
+    "name":"510 Systems",
+    "position-range":{
+      "Mechanical Engineer":[
+        58000,
+        83000
+      ],
+      "Software Engineer":[
+        67000,
+        111000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Applications Engineer",
+      "Sales Engineer"
+    ],
+    "name":"COMSOL",
+    "position-range":{
+      "Sales Engineer":[
+        66000,
+        96000
+      ],
+      "Applications Engineer":[
+        73000,
+        97000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Senior Maximo Technical Consultant (Systems Analyst)",
+      "Programmer/Analyst"
+    ],
+    "name":"Cohesive Information Solutions",
+    "position-range":{
+      "Senior Software Engineer":[
+        78000,
+        93000
+      ],
+      "Senior Maximo Technical Consultant (Systems Analyst)":[
+        109000,
+        115000
+      ],
+      "Programmer/Analyst":[
+        82000,
+        89000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Developer (Computer Programmer)",
+      "Web Developer"
+    ],
+    "name":"ITX Corp.",
+    "position-range":{
+      "Web Developer":[
+        29000,
+        49000
+      ],
+      "Developer (Computer Programmer)":[
+        42000,
+        42000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Senior Developer",
+      "Account Manager",
+      "Senior Architect"
+    ],
+    "name":"Maxwell Systems",
+    "position-range":{
+      "Senior Developer":[
+        75000,
+        90000
+      ],
+      "Senior Architect":[
+        120000,
+        138000
+      ],
+      "Account Manager":[
+        31000,
+        43000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Software QA/QC Engineer"
+    ],
+    "name":"KRJA Systems",
+    "position-range":{
+      "Senior Software QA/QC Engineer":[
+        95000,
+        110000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Information Technology Manager",
+      "R&amp;D Engineer",
+      "Solutions Architect"
+    ],
+    "name":"Objective Systems Integrators",
+    "position-range":{
+      "Information Technology Manager":[
+        65000,
+        65000
+      ],
+      "R&amp;D Engineer":[
+        67000,
+        91000
+      ],
+      "Solutions Architect":[
+        95000,
+        103000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Mac Consultant"
+    ],
+    "name":"MacMedics",
+    "position-range":{
+      "Mac Consultant":[
+        50000,
+        63000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Support Analyst",
+      "Senior Field Sales Consultant"
+    ],
+    "name":"SirsiDynix",
+    "position-range":{
+      "Support Analyst":[
+        42000,
+        45000
+      ],
+      "Senior Field Sales Consultant":[
+        58000,
+        73000
+      ],
+      "Software Engineer":[
+        40000,
+        72000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Research Scientist/Engineer"
+    ],
+    "name":"ooVoo",
+    "position-range":{
+      "Research Scientist/Engineer":[
+        72000,
+        72000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Account Manager",
+      "Customer Account Manager",
+      "Senior Technical Consultant"
+    ],
+    "name":"Experian Data Quality US",
+    "position-range":{
+      "Customer Account Manager":[
+        42000,
+        67000
+      ],
+      "Senior Technical Consultant":[
+        48000,
+        75000
+      ],
+      "Account Manager":[
+        50000,
+        50000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Account Executive",
+      "Software Developer",
+      "Quality Assurance Engineer"
+    ],
+    "name":"Smarsh",
+    "position-range":{
+      "Account Executive":[
+        35000,
+        80000
+      ],
+      "Quality Assurance Engineer":[
+        77000,
+        90000
+      ],
+      "Software Developer":[
+        65000,
+        83000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Regional Vice President",
+      "Customer Care Manager"
+    ],
+    "name":"Newscale",
+    "position-range":{
+      "Senior Software Engineer":[
+        90000,
+        106000
+      ],
+      "Regional Vice President":[
+        135000,
+        152000
+      ],
+      "Customer Care Manager":[
+        95000,
+        104000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Head of Information Technology Us"
+    ],
+    "name":"Pharos Systems",
+    "position-range":{
+      "Software Engineer":[
+        59000,
+        76000
+      ],
+      "Head of Information Technology Us":[
+        57000,
+        68000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Graphic Designer"
+    ],
+    "name":"CIE Games",
+    "position-range":{
+      "Graphic Designer":[
+        39000,
+        52000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Data Warehouse Analyst",
+      "Business Liaison/Translator",
+      "Software Developer Applications ( Micro Strategy"
+    ],
+    "name":"NetLogic",
+    "position-range":{
+      "Software Developer Applications ( Micro Strategy":[
+        69000,
+        88000
+      ],
+      "Business Liaison/Translator":[
+        18000,
+        18000
+      ],
+      "Data Warehouse Analyst":[
+        62000,
+        67000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer"
+    ],
+    "name":"Unlimited Technology Systems",
+    "position-range":{
+      "Software Engineer":[
+        72000,
+        94000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Account Manager",
+      "Regional Sales Director",
+      "Regional Sales Executive"
+    ],
+    "name":"Sterling Infosystems",
+    "position-range":{
+      "Regional Sales Executive":[
+        48000,
+        67000
+      ],
+      "Regional Sales Director":[
+        50000,
+        55000
+      ],
+      "Account Manager":[
+        45000,
+        72000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Help Desk Engineer"
+    ],
+    "name":"Source Support Services",
+    "position-range":{
+      "Help Desk Engineer":[
+        29000,
+        33000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Software Engineer"
+    ],
+    "name":"GraphOn",
+    "position-range":{
+      "Senior Software Engineer":[
+        116000,
+        173000
+      ],
+      "Software Engineer":[
+        92000,
+        106000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Senior Technical Consultant",
+      "Account Manager",
+      "Technical Consultant"
+    ],
+    "name":"iDashboards",
+    "position-range":{
+      "Senior Technical Consultant":[
+        68000,
+        74000
+      ],
+      "Technical Consultant":[
+        65000,
+        89000
+      ],
+      "Account Manager":[
+        48000,
+        57000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Developer",
+      "Software Engineer",
+      "Systems Programmer Analyst"
+    ],
+    "name":"Information Builders",
+    "position-range":{
+      "Systems Programmer Analyst":[
+        60000,
+        103000
+      ],
+      "Software Developer":[
+        70000,
+        100000
+      ],
+      "Software Engineer":[
+        75000,
+        125000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Consultant",
+      ".NET/C# Programmer",
+      "Software Developer"
+    ],
+    "name":"PowerObjects",
+    "position-range":{
+      "Software Developer":[
+        47000,
+        50000
+      ],
+      "Consultant":[
+        50000,
+        96000
+      ],
+      ".NET/C# Programmer":[
+        45000,
+        59000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Developer"
+    ],
+    "name":"bieMEDIA",
+    "position-range":{
+      "Software Developer":[
+        55000,
+        57000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Intern"
+    ],
+    "name":"Internships.com",
+    "position-range":{
+      "Intern":[
+        12000,
+        13000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Technical Support Engineer",
+      "Software Engineer",
+      "Malware Research Engineer"
+    ],
+    "name":"Palo Alto Networks",
+    "position-range":{
+      "Malware Research Engineer":[
+        105000,
+        110000
+      ],
+      "Software Engineer":[
+        80000,
+        160000
+      ],
+      "Technical Support Engineer":[
+        63000,
+        110000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Systems Analyst",
+      "Senior Consultant",
+      "Program Manager"
+    ],
+    "name":"Synch-Solutions",
+    "position-range":{
+      "Program Manager":[
+        120000,
+        136000
+      ],
+      "Senior Consultant":[
+        95000,
+        110000
+      ],
+      "Systems Analyst":[
+        63000,
+        79000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Analyst"
+    ],
+    "name":"Control Point Solutions",
+    "position-range":{
+      "Analyst":[
+        35000,
+        86000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "IT Project Manager"
+    ],
+    "name":"LifeYield",
+    "position-range":{
+      "IT Project Manager":[
+        52000,
+        58000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Solutions Engineer",
+      "Senior Software Architect"
+    ],
+    "name":"Sencha",
+    "position-range":{
+      "Solutions Engineer":[
+        80000,
+        100000
+      ],
+      "Senior Software Architect":[
+        100000,
+        136000
+      ],
+      "Software Engineer":[
+        76000,
+        120000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Senior Software Engineer",
+      "Engineering Manager"
+    ],
+    "name":"Get Satisfaction",
+    "position-range":{
+      "Senior Software Engineer":[
+        110000,
+        119000
+      ],
+      "Engineering Manager":[
+        119000,
+        131000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Implementation Consultant",
+      "Senior Software Engineer",
+      "Software Engineer"
+    ],
+    "name":"SilkRoad Technology",
+    "position-range":{
+      "Senior Software Engineer":[
+        106000,
+        127000
+      ],
+      "Implementation Consultant":[
+        53000,
+        75000
+      ],
+      "Software Engineer":[
+        85000,
+        108000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer"
+    ],
+    "name":"Apportable",
+    "position-range":{
+      "Software Engineer":[
+        100000,
+        140000
+      ]
+    },
+    "position-number":1
+  },
+  {
+    "position":[
+      "Software Engineer II",
+      "Senior Research Engineer"
+    ],
+    "name":"Adapx",
+    "position-range":{
+      "Software Engineer II":[
+        53000,
+        88000
+      ],
+      "Senior Research Engineer":[
+        101000,
+        122000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Lead Software Engineer",
+      "Senior Software Engineer",
+      "Sales"
+    ],
+    "name":"Cincom",
+    "position-range":{
+      "Senior Software Engineer":[
+        77000,
+        91000
+      ],
+      "Sales":[
+        33000,
+        37000
+      ],
+      "Lead Software Engineer":[
+        84000,
+        110000
+      ]
+    },
+    "position-number":3
+  },
+  {
+    "position":[
+      "Software Engineer",
+      "Business Development Representative"
+    ],
+    "name":"Kontagent",
+    "position-range":{
+      "Business Development Representative":[
+        55000,
+        80000
+      ],
+      "Software Engineer":[
+        65000,
+        105000
+      ]
+    },
+    "position-number":2
+  },
+  {
+    "position":[
+      "Software Developer",
+      "Web Developer"
+    ],
+    "name":"Adage Technologies",
+    "position-range":{
+      "Web Developer":[
+        52000,
+        71000
+      ],
+      "Software Developer":[
+        60000,
+        65000
+      ]
+    },
+    "position-number":2
+  }
+]
