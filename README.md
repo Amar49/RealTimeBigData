@@ -1,15 +1,23 @@
 RealTimeBigData
 ===============
+# RTBD - XYZ Team
 
+## Overview
 Repository for "Real Time and Big Data Analytics" course project: 
 
-0. Course website: http://cs.nyu.edu/courses/spring14/CSCI-GA.3033-008/index.html
+## Project Details
+- Course website: http://cs.nyu.edu/courses/spring14/CSCI-GA.3033-008/index.html
 
-1. Project Name: LinkedIn, Glassdoor Skill and Salary Analysis
+- Project Name: LinkedIn, Glassdoor Skill and Salary Analysis
 
-2. Project data sets source: Glassdoor, LinkedIn (still waiting for the approve), Twitter (optional)
+- Project data sets source: Glassdoor, LinkedIn (got approves, but applying for more quota), Twitter (optional)
 
-3. Main flow :
+- Main flow :
+  - Main working flow
+    - Use Python crawler program get JSON data from Glassdoor, and you can find example data in 
+    [someLabel](RealTimeBigData/blob/master/data/glassdoor/company.json)
+     
+  - Flow Graph
 ![alt tag](https://dl.dropboxusercontent.com/u/108110380/RTBD-XYZ/Project's%20Work%20and%20Data%20Flow.png)
 
 
