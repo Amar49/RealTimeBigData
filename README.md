@@ -5,8 +5,8 @@ Repository for "Real Time and Big Data Analytics" course project:
 
 ## Team Member
 - Jing <b>X</b>ia
-- Long **Y** ang
-- ZhaoHui **Z** hang
+- Long <b>Y</b>ang
+- ZhaoHui <b>Z</b>hang
 
 ## Project Details
 - Course website: [Realtime and Big Data Analytics CSCI-GA.3033-008](http://cs.nyu.edu/courses/spring14/CSCI-GA.3033-008/index.html)
