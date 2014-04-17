@@ -4,16 +4,16 @@
 Repository for "Real Time and Big Data Analytics" course project: 
 
 ## Team Member
-- Jing <b>X</b>ia
-- Long <b>Y</b>ang
-- ZhaoHui <b>Z</b>hang
+- [Jing <b>X</b>ia](https://github.com/xiajingcici)
+- [Long <b>Y</b>ang](https://github.com/LongYang0806)
+- [ZhaoHui <b>Z</b>hang](https://github.com/zhaohuizh)
 
 ## Project Details
 - Course website: [Realtime and Big Data Analytics CSCI-GA.3033-008](http://cs.nyu.edu/courses/spring14/CSCI-GA.3033-008/index.html)
 
 - Project Name: LinkedIn, Glassdoor Skill and Salary Analysis
 
-- Project data sets source: [Glassdoor](www.glassdoor.com), [LinkedIn](www.linkedin.com) (got approves, but applying for more quota), [Twitter](www.twitter.com) (optional)
+- Project data sets source: [Glassdoor](http://www.glassdoor.com), [LinkedIn](http://www.linkedin.com) (got approves, but applying for more quota), [Twitter](http://www.twitter.com) (optional)
 
 - Main flow :
   - Main working flow
