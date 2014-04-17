@@ -4,11 +4,11 @@
 Repository for "Real Time and Big Data Analytics" course project: 
 
 ## Project Details
-- Course website: [here](http://cs.nyu.edu/courses/spring14/CSCI-GA.3033-008/index.html)
+- Course website: [Realtime and Big Data Analytics CSCI-GA.3033-008](http://cs.nyu.edu/courses/spring14/CSCI-GA.3033-008/index.html)
 
 - Project Name: LinkedIn, Glassdoor Skill and Salary Analysis
 
-- Project data sets source: Glassdoor, LinkedIn (got approves, but applying for more quota), Twitter (optional)
+- Project data sets source: [Glassdoor](www.glassdoor.com), [LinkedIn](www.linkedin.com) (got approves, but applying for more quota), [Twitter](www.twitter.com) (optional)
 
 - Main flow :
   - Main working flow
@@ -24,7 +24,7 @@ Repository for "Real Time and Big Data Analytics" course project:
     industry.
     - Pair the <Company&Title, salary> with <Company&Title, top 5 skills> and compute average range
     for each skill to give recommendations to college students when choosing skills to learn.
-    - Based on the ranking of skills inside each industry and data from Twitter to rank the skills
+    - Based on the ranking of skills inside each industry and data from Twitter([reference](http://twitter4j.org/en/index.html)) to rank the skills
     hotness inside each industry.
      
   - Flow Graph
