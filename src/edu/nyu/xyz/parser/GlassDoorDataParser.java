@@ -18,7 +18,7 @@ public class GlassDoorDataParser {
 	public static void main(String[] args) {
 		getCompanyNamesAndPosition("/Users/longyang/git/RealTimeBigData/data/glassdoor/company.json", 
 				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company_output.json", 
-				"All");
+				"Information Technology");
 	} 
 	
 	/**
@@ -126,6 +126,7 @@ public class GlassDoorDataParser {
 				outputJsonObject.put(ParserConstants.POSITION_RANGE, position_range);
 				outputJsonArray.add(outputJsonObject);
 			}
+			System.out.println("Done! And here comes the statistics: ");
 			System.out.println("Illegal Data Number: " + illegalData);
 			System.out.println("Total result company number: " + outputJsonArray.size());
 			String niceFormatJson = JsonWriter.formatJson(outputJsonArray.toJSONString());
