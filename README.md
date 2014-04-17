@@ -4,7 +4,7 @@
 Repository for "Real Time and Big Data Analytics" course project: 
 
 ## Team Member
-- Jing **X** ia
+- Jing <b>X</b>ia
 - Long **Y** ang
 - ZhaoHui **Z** hang
 
