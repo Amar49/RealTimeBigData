@@ -9,14 +9,14 @@ Repository for "Real Time and Big Data Analytics" course project:
 - [ZhaoHui <b>Z</b>hang](https://github.com/zhaohuizh)
 
 ## Project Details
-- Course website: [Realtime and Big Data Analytics CSCI-GA.3033-008](http://cs.nyu.edu/courses/spring14/CSCI-GA.3033-008/index.html)
+- <i>Course website</i>: [Realtime and Big Data Analytics CSCI-GA.3033-008](http://cs.nyu.edu/courses/spring14/CSCI-GA.3033-008/index.html)
 
-- Project Name: LinkedIn, Glassdoor Skill and Salary Analysis
+- <i>Project Name</i>: LinkedIn, Glassdoor Skill and Salary Analysis
 
-- Project data sets source: [Glassdoor](http://www.glassdoor.com), [LinkedIn](http://www.linkedin.com) (got approves, but applying for more quota), [Twitter](http://www.twitter.com) (optional)
+- <i>Project data sets source</i>: [Glassdoor](http://www.glassdoor.com), [LinkedIn](http://www.linkedin.com) (got approves, but applying for more quota), [Twitter](http://www.twitter.com) (optional)
 
-- Main flow :
-  - Main working flow
+- <i>Main flow</i> :
+  - <i>Main working flow</i>
     - Use Python crawler program get JSON data from Glassdoor, and you can find example data in 
     [Example data for Glassdoor](data/glassdoor/company.json), at first stage, we will first focus 
     on certain Industry, such as "Information Technology". In the future, we will sort the data from
@@ -32,7 +32,7 @@ Repository for "Real Time and Big Data Analytics" course project:
     - Based on the ranking of skills inside each industry and data from Twitter([reference](http://twitter4j.org/en/index.html)) to rank the skills
     hotness inside each industry.
      
-  - Flow Graph
+  - <i>Flow Graph</i>
 ![alt tag](https://dl.dropboxusercontent.com/u/108110380/RTBD-XYZ/Project's%20Work%20and%20Data%20Flow.png)
 
 
