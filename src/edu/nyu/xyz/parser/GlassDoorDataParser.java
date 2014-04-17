@@ -11,7 +11,6 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import com.cedarsoftware.util.io.JsonWriter;
-import com.sun.istack.internal.logging.Logger;
 
 public class GlassDoorDataParser {
 
