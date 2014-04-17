@@ -16,7 +16,8 @@ Repository for "Real Time and Big Data Analytics" course project:
   - Main working flow
     - Use Python crawler program get JSON data from Glassdoor, and you can find example data in 
     [someLabel](RealTimeBigData/blob/master/data/glassdoor/company.json)
-    - Use the data get from Glassdoor.
+    - Use the data get from Glassdoor <Company, title> to do "People Search" on LinkedIn to get
+    <company&title, skill set> pairs.
      
   - Flow Graph
 ![alt tag](https://dl.dropboxusercontent.com/u/108110380/RTBD-XYZ/Project's%20Work%20and%20Data%20Flow.png)
