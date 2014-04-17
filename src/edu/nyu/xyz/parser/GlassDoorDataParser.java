@@ -4,6 +4,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -15,8 +17,10 @@ import com.cedarsoftware.util.io.JsonWriter;
 public class GlassDoorDataParser {
 
 	public static void main(String[] args) {
-		getCompanyNamesAndPosition("/Users/longyang/git/RealTimeBigData/data/glassdoor/company.json", 
+		getCompanyNamesAndPosition(
+				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company.json", 
 				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company_output.json", 
+				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company_all_position.json",
 				"Information Technology");
 	} 
 	
@@ -63,12 +67,13 @@ public class GlassDoorDataParser {
 	 * 			}
 	 * 	}
 	 * ]
+	 * @param outputPositionFilePath output file path for all position data.
 	 * @param industry determine which industry we are focusing on, and it can be "All" which means
 	 * you want all industry's data.
 	 */
 	@SuppressWarnings("unchecked")
 	public static void getCompanyNamesAndPosition(String inputFilePath, String outputFilePath, 
-			String industry) {
+			String outputPositionFilePath, String industry) {
 		if(	inputFilePath == null || inputFilePath.isEmpty() ||
 				outputFilePath == null || outputFilePath.isEmpty() ||
 				industry == null || industry.isEmpty()) {
@@ -83,6 +88,8 @@ public class GlassDoorDataParser {
 			Object object = parser.parse(inputFile);
 			JSONArray inputJsonArray = (JSONArray) object;
 			JSONArray outputJsonArray = new JSONArray();
+			JSONArray allPositionsArray = new JSONArray();
+			Set<String> allPositionsSet = new HashSet<String>();
 			
 			for(int i = 0; i < inputJsonArray.size(); i++) {
 				// 1. Get all the information from "inputJsonObject"
@@ -116,6 +123,7 @@ public class GlassDoorDataParser {
 				for(int j = 0; j < info_salary.size(); j++) {
 					JSONObject infoSalaryObject = (JSONObject) info_salary.get(j);
 					String info_salary_position = (String) infoSalaryObject.get(ParserConstants.POSITION);
+					allPositionsSet.add(info_salary_position);
 					String positionStr = info_salary_position;
 					name_position.add(positionStr);
 					JSONArray info_salary_range = (JSONArray) infoSalaryObject.get(ParserConstants.RANGE);
@@ -128,6 +136,14 @@ public class GlassDoorDataParser {
 			System.out.println("Done! And here comes the statistics: ");
 			System.out.println("Illegal Data Number: " + illegalData);
 			System.out.println("Total result company number: " + outputJsonArray.size());
+			// 3.1. Output all positions data into certain file.
+			allPositionsArray.addAll(allPositionsSet);
+			String niceFormatJsonAllPositions = JsonWriter.formatJson(allPositionsArray.toJSONString());
+			FileWriter allPositionsFileWriter = new FileWriter(outputPositionFilePath);
+			allPositionsFileWriter.write(niceFormatJsonAllPositions);
+			allPositionsFileWriter.flush();
+			allPositionsFileWriter.close();
+			// 3.2. Output all companies data into certain file.
 			String niceFormatJson = JsonWriter.formatJson(outputJsonArray.toJSONString());
 			FileWriter fileWriter = new FileWriter(outputFilePath);
 			fileWriter.write(niceFormatJson);
