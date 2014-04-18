@@ -18,7 +18,7 @@ obj = open(dest_path, 'w')
 obj.write('[')
 com_short = com_list[90000:]
 print 'new len: ', len(com_short)
-for one in com_list:
+for one in com_short:
   #print one
   info = get(one)
   obj.write('{ "name": "' + one.encode('utf-8') +'",')
