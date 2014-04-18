@@ -16,6 +16,8 @@ print 'Len: ', len(com_list)
 
 obj = open(dest_path, 'w')
 obj.write('[')
+com_short = com_list[90000:]
+print 'new len: ', len(com_short)
 for one in com_list:
   #print one
   info = get(one)
