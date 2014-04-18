@@ -3,7 +3,7 @@
 import json
 from glassdoor import get
 
-dest_path = 'company.json'
+dest_path = 'company90000.json'
 json_data = open('companies/data.json')
 data = json.load(json_data)
 com_list = []
