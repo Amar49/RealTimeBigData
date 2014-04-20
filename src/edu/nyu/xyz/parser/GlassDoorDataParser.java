@@ -18,8 +18,8 @@ public class GlassDoorDataParser {
 
 	public static void main(String[] args) {
 		getCompanyNamesAndPosition(
-				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company.json", 
-				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company_output.json", 
+				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company/glassdoor.json", 
+				"/Users/longyang/git/RealTimeBigData/data/glassdoor//company_output.json", 
 				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company_all_position.json",
 				"Information Technology");
 	} 
