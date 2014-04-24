@@ -94,7 +94,7 @@ public class GlassDoorDataParser {
 			for(int i = 0; i < inputJsonArray.size(); i++) {
 				// 1. Get all the information from "inputJsonObject"
 				JSONObject inputJsonObject = (JSONObject) inputJsonArray.get(i);
-				String name = (String) inputJsonObject.get(ParserConstants.NAME);
+				String name = (String) inputJsonObject.get(ParserConstants.COMPANY);
 				System.out.println("Number " + i + ": " + name + ": processing...");
 				JSONObject info = new JSONObject();
 				if( inputJsonObject.get(ParserConstants.INFO) instanceof JSONObject) {
@@ -112,7 +112,7 @@ public class GlassDoorDataParser {
 				
 				// 2. Construct output object
 				JSONObject outputJsonObject = new JSONObject();
-				outputJsonObject.put(ParserConstants.NAME, name);
+				outputJsonObject.put(ParserConstants.COMPANY, name);
 				if(info_salary.size() <= 0) {
 					illegalData = illegalData + 1;
 					continue;
