@@ -33,7 +33,7 @@ public class LinkedInDataParser {
 	 * }
 	 * 
 	 */
-	@SuppressWarnings({ "unchecked", "resource" })
+	@SuppressWarnings({ "unchecked"})
 	public static void companyPositionSkills(String inputFilePath, String outputFilePath) {
 		if (inputFilePath == null || inputFilePath.isEmpty() ||
 				outputFilePath == null || outputFilePath.isEmpty()) {
@@ -88,9 +88,12 @@ public class LinkedInDataParser {
 			}
 			System.out.println("Done! And the size of final good LinkedIn profiles is: " + 
 					outputJsonArray.size());
+			
 			String niceFormatJsonAllPositions = JsonWriter.formatJson(outputJsonArray.toJSONString());
 			FileWriter outputFileWriter = new FileWriter(outputFilePath);
 			outputFileWriter.write(niceFormatJsonAllPositions);
+			outputFileWriter.flush();
+			outputFileWriter.close();
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
