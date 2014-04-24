@@ -1,6 +1,7 @@
 from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 from scrapy.http import Request
+from scrapy.http import HtmlResponse
 from linkedIn.items import linkedInItem
 
 import sys
@@ -26,6 +27,7 @@ class linkedInSpider(BaseSpider):
         #start_urls = start_urls[0:1]
 
 	def parse(self, response):
+		response = HtmlResponse(url=response.url, status=response.status, headers=response.headers, body=response.body)
 		hxs = HtmlXPathSelector(response)
                 
                 #return
