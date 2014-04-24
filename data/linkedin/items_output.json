@@ -5177,4 +5177,178 @@
       "Marketing",
       "Telecommunications",
       "Sales Management",
-      "Solution Selli
+      "Solution Selling",
+      "Customer Satisfaction",
+      "Salesforce.com",
+      "New Business Development",
+      "Management"
+    ],
+    "position":"Area Manager Service Management",
+    "company":"AT&T Mobility"
+  },
+  {
+    "skills":[
+      "Instructional Design",
+      "Distance Learning",
+      "E-Learning",
+      "Instructional Technology",
+      "Educational Technology"
+    ],
+    "position":"Instructor",
+    "company":"Florida Virtual School"
+  },
+  {
+    "skills":[
+      "Linux",
+      "VMware",
+      "MySQL",
+      "PHP",
+      "System Administration",
+      "Active Directory",
+      "Data Analysis",
+      "Programming",
+      "SQL",
+      "Perl",
+      "Windows Server"
+    ],
+    "position":"System Administrator",
+    "company":"University of Texas at El Paso"
+  },
+  {
+    "skills":[
+      "Teaching",
+      "Public Speaking",
+      "Healthcare"
+    ],
+    "position":"nutrition education coordinator",
+    "company":"Oak Park River Forest Food Pantry"
+  },
+  {
+    "skills":[
+      "Salesforce.com",
+      "Employee Benefits",
+      "Sales",
+      "Customer Service",
+      "Relationship Management",
+      "Sales Management",
+      "Mutual Funds",
+      "Account Management",
+      "Relius Administration",
+      "OMNI",
+      "Microsoft Excel",
+      "Microsoft Office",
+      "Retirement"
+    ],
+    "position":"Account Manager",
+    "company":"Standard Insurance Company"
+  },
+  {
+    "skills":[
+      "DFAR",
+      "Government Contracting",
+      "DoD",
+      "Defense Contracting",
+      "Security Clearance",
+      "Government Procurement",
+      "Defense",
+      "Federal Government",
+      "Government",
+      "Information Assurance",
+      "Counterterrorism",
+      "Top Secret",
+      "FAR",
+      "Contract Negotiation",
+      "Procurement",
+      "Contract Management",
+      "Foreign Military Sales",
+      "Combat",
+      "Military Liaison",
+      "Military Logistics",
+      "Intelligence Community",
+      "Leadership",
+      "Tactics",
+      "Negotiation",
+      "Active Top Secret Security Clearance",
+      "Operational Planning",
+      "Intelligence",
+      "Personnel Supervision",
+      "Contingency Planning",
+      "Security",
+      "Proposal Writing",
+      "Federal Law",
+      "Earned Value Management",
+      "Weapons",
+      "Readiness",
+      "Strategic Planning",
+      "Navy"
+    ],
+    "position":"Contracting Officer/Supervise and team lead",
+    "company":"US Army"
+  },
+  {
+    "skills":[
+      "Operations Management",
+      "Medication Therapy Management",
+      "Certified Immunizer",
+      "Cpr Certified",
+      "Patient Counseling",
+      "Pharmacy Practice",
+      "Compounding",
+      "Clinical Pharmacy",
+      "Medicare Part D",
+      "Clinical Pharmacology",
+      "Inventory Management",
+      "Coaching Staff",
+      "Customer Service"
+    ],
+    "position":"Pharmacy Manager",
+    "company":"Walgreens"
+  },
+  {
+    "skills":[
+      "Customer Service",
+      "Food",
+      "Food Service",
+      "Grocery",
+      "Business Planning"
+    ],
+    "position":"Supermarket owner",
+    "company":"Keyfood Company"
+  },
+  {
+    "skills":[
+      "Retail",
+      "Jewelry",
+      "Luxury Goods",
+      "Sales Management",
+      "Strategic Planning",
+      "Product Development",
+      "New Business Development",
+      "Marketing Strategy",
+      "Marketing",
+      "Business Strategy"
+    ],
+    "position":"Vice President",
+    "company":"Maya Caroleena Jewelers"
+  },
+  {
+    "skills":[
+      "Excellent written and verbal communication skills",
+      "Microsoft Office",
+      "Adobe Photoshop",
+      "Adobe InDesign",
+      "Customer Service",
+      "Advertising",
+      "Event Management",
+      "Fundraising",
+      "Social Media Marketing",
+      "Communication",
+      "Photoshop",
+      "Facebook",
+      "Social Media",
+      "InDesign"
+    ],
+    "position":"Internal Wholesaler",
+    "company":"Transamerica"
+  }
+]
