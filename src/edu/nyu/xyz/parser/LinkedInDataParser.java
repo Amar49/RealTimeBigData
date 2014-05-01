@@ -15,9 +15,16 @@ import com.cedarsoftware.util.io.JsonWriter;
 public class LinkedInDataParser {
 
 	public static void main(String[] args) {
-		companyPositionSkills(
-				"/Users/longyang/git/RealTimeBigData/crawler/linkedInScraper/linkedIn/items.json", 
-				"/Users/longyang/git/RealTimeBigData/crawler/linkedInScraper/linkedIn/items_output.json");
+		String companyPositionSkillInputFilePath =  
+				"/Users/longyang/git/RealTimeBigData/data/linkedin/LinkedInCleanData.json";
+		String companyPositionSkillOutputFilePath =
+				"/Users/longyang/git/RealTimeBigData/data/linkedin/CompanyPositionSkill.json";
+		
+//		companyPositionSkills(
+//				"/Users/longyang/git/RealTimeBigData/data/linkedin/linkedin/9.json", 
+//				"/Users/longyang/git/RealTimeBigData/data/linkedin/linkedin/out/9.json");
+		companyPositionSkill(companyPositionSkillInputFilePath, 
+				companyPositionSkillOutputFilePath);
 	}
 	
 	/**
@@ -55,6 +62,7 @@ public class LinkedInDataParser {
 			}
 			
 			for (int i = 0; i < inputJsonArray.size(); i++) {
+				System.out.println("Number: " + i);
 				Object profile = inputJsonArray.get(i);
 				JSONObject jsonProfile = new JSONObject();
 				JSONObject outputJsonProfile = new JSONObject();
@@ -95,6 +103,57 @@ public class LinkedInDataParser {
 			outputFileWriter.flush();
 			outputFileWriter.close();
 			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@SuppressWarnings("unchecked")
+	public static void companyPositionSkill(String inputFilePath, String outputFilePath) {
+		if (inputFilePath == null || inputFilePath.isEmpty() ||
+				outputFilePath == null || outputFilePath.isEmpty()) {
+			throw new IllegalArgumentException("Both inputFilePath and outputFilePath should not be "
+					+ "null or empty!");
+		}
+		
+		JSONParser parser = new JSONParser();
+		
+		try {
+			FileReader reader = new FileReader(inputFilePath);
+			Object object = parser.parse(reader);
+			JSONArray inputJsonArray = (JSONArray) object;
+			JSONArray outputJsonArray = new JSONArray();
+			
+			for (int i = 0; i < inputJsonArray.size(); i++) {
+				JSONObject inputObject = (JSONObject) inputJsonArray.get(i);
+				String companyName = (String) inputObject.get(ParserConstants.COMPANY);
+				String position = (String) inputObject.get(ParserConstants.POSITION);
+				JSONArray skills = (JSONArray) inputObject.get(ParserConstants.SKILLS);
+				
+				for (int j = 0; j < skills.size(); j++) {
+					String skill = (String) skills.get(j);
+					JSONObject outputObject = new JSONObject();
+					outputObject.put(ParserConstants.COMPANY, companyName);
+					outputObject.put(ParserConstants.POSITION, position);
+					outputObject.put(ParserConstants.SKILL, skill);
+					outputJsonArray.add(outputObject);
+				}
+			}
+			
+			System.out.println("Done! And the size of final good LinkedIn profiles is: " + 
+					outputJsonArray.size());
+			String companyPositionSkillStr = ParserUtil.getSelfDefinedJSONString(outputJsonArray);
+			FileWriter outputFileWriter = new FileWriter(outputFilePath);
+			outputFileWriter.write(companyPositionSkillStr);
+			outputFileWriter.flush();
+			outputFileWriter.close();
+			System.out.println("Done!");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

@@ -17,11 +17,19 @@ import com.cedarsoftware.util.io.JsonWriter;
 public class GlassDoorDataParser {
 
 	public static void main(String[] args) {
-		getCompanyNamesAndPosition(
-				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company/glassdoor.json", 
-				"/Users/longyang/git/RealTimeBigData/data/glassdoor//company_output.json", 
-				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company_all_position.json",
-				"Information Technology");
+		String inputFilePath = 
+				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company/glassdoor.json";
+		String companyNamesPositionsOuputFilePath = 
+				"/Users/longyang/git/RealTimeBigData/data/glassdoor//company_output.json";
+		String companyAllPositionsOutputFilePath = 
+				"/Users/longyang/git/RealTimeBigData/data/glassdoor/company_all_position.json";
+		String industry = "Information Technology";
+		String companyPositionSalaryOutputFilePath = 
+				"/Users/longyang/git/RealTimeBigData/data/glassdoor/companyPositionSalary.json";
+		
+		getCompanyNamesAndPosition(inputFilePath, companyNamesPositionsOuputFilePath, 
+				companyAllPositionsOutputFilePath, industry);
+		companyPositionSalary(companyNamesPositionsOuputFilePath, companyPositionSalaryOutputFilePath);
 	} 
 	
 	/**
@@ -94,7 +102,7 @@ public class GlassDoorDataParser {
 			for(int i = 0; i < inputJsonArray.size(); i++) {
 				// 1. Get all the information from "inputJsonObject"
 				JSONObject inputJsonObject = (JSONObject) inputJsonArray.get(i);
-				String name = (String) inputJsonObject.get(ParserConstants.COMPANY);
+				String name = (String) inputJsonObject.get(ParserConstants.NAME);
 				System.out.println("Number " + i + ": " + name + ": processing...");
 				JSONObject info = new JSONObject();
 				if( inputJsonObject.get(ParserConstants.INFO) instanceof JSONObject) {
@@ -149,6 +157,59 @@ public class GlassDoorDataParser {
 			fileWriter.write(niceFormatJson);
 			fileWriter.flush();
 			fileWriter.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@SuppressWarnings("unchecked")
+	public static void companyPositionSalary(String inputFilePath, String outputFilePath) {
+		if (inputFilePath == null || inputFilePath.isEmpty() ||
+				outputFilePath == null || outputFilePath.isEmpty()) {
+			throw new IllegalArgumentException("InputFilePath and OutputFilePath should not be"
+					+ "null or empty!");
+		}
+		
+		JSONParser parser = new JSONParser();
+		
+		try {
+			FileReader inputFile = new FileReader(inputFilePath);
+			Object object = parser.parse(inputFile);
+			JSONArray inputJsonArray = (JSONArray) object;
+			JSONArray outputJsonArray = new JSONArray();
+			
+			for (int i = 0; i < inputJsonArray.size(); i++) {
+				// 1. Get all the information from the input file
+				JSONObject inputObject = (JSONObject) inputJsonArray.get(i);
+				String companyName = (String) inputObject.get(ParserConstants.COMPANY);
+				JSONArray positions = (JSONArray) inputObject.get(ParserConstants.POSITION);
+				JSONObject salaryRanges = (JSONObject) inputObject.get(ParserConstants.POSITION_RANGE);
+				
+				// 2. Generate the output to store into OutputFilePath
+				for (int j = 0; j < positions.size(); j++) {
+					String position = (String) positions.get(j);
+					JSONArray salaryRange = (JSONArray) salaryRanges.get(position);
+					int salaryLow = (int)((long) salaryRange.get(0));
+					int salaryHigh = (int)((long) salaryRange.get(1));
+					int salary = (salaryLow + salaryHigh) >>> 1;
+					JSONObject outputObject = new JSONObject();
+					outputObject.put(ParserConstants.COMPANY, companyName);
+					outputObject.put(ParserConstants.POSITION, position);
+					outputObject.put(ParserConstants.SALARY, salary);
+					outputJsonArray.add(outputObject);
+				}
+			}
+			System.out.println("Done! And here comes the statistics: ");
+			System.out.println("Total result company number: " + outputJsonArray.size());
+			String companyPositionSalaryStr = ParserUtil.getSelfDefinedJSONString(outputJsonArray);
+			FileWriter writer = new FileWriter(outputFilePath);
+			writer.write(companyPositionSalaryStr);
+			writer.flush();
+			writer.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

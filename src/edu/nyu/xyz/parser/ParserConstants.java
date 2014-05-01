@@ -6,11 +6,13 @@ public class ParserConstants {
 	public static String POSITION = "position";
 	public static String POSITION_RANGE = "position-range";
 	public static String POSITION_NUMBER = "position-number";
+	public static String NAME = "name";
 	public static String COMPANY = "company";
 	public static String CURRENT_COMPANY = "currentCompany";
 	public static String CURRENT_POSITION = "currentPosition";
 	public static String SUMMARYSPECIALTIES = "summarySpecialties";
 	public static String SKILLS = "skills";
+	public static String SKILL = "skill";
 	
 	// 1.2. Constants for input file
 	public static String INFO = "info";
