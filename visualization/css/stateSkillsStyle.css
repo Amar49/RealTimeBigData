@@ -1,0 +1,23 @@
+/*.hoverinfo {*/
+	/*text-align: center;*/
+/*}*/
+
+.stateName {
+	font-size: 15px;
+	color : black;
+	font-weight: bold;
+	text-align: center;
+}
+
+.skillName {
+	font-size: 12px;
+	color : blue;
+	font-weight: bold;
+	text-align: left;
+}
+
+.avgSalary {
+	font-size: 12px;
+	color : orange;
+	text-align: right;
+}

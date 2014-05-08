@@ -2,13 +2,31 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>D3 Test</title>
-		<script type="text/javascript" src="d3/d3.v3.js"></script>
-		<link rel="stylesheet" href="css/style.css"/>
+		<title>RTBD XYZ</title>
+		<script src="js/lib/d3.v3.min.js"></script>
+		<script src="js/lib/topojson.v1.min.js"></script>
+		<script src="js/lib/jquery-1.11.1.min.js"></script>
+		<script src="js/lib/datamaps.usa.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/stateSkillsStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/top25_chart_style.css">
+		<link rel="stylesheet" type="text/css" href="css/top_skills_style.css">
 	</head>
 	<body>
-		<!--other html components goes here.-->
-		<!-- Here comes the js files -->
-		<script type="text/javascript" src="js/dataBinding.js"></script>
+		<div id="salaryRankHeader">
+			Top 25 Payed Skills for Internet Technology Companies
+		</div>
+		<script type="text/javascript" src="js/src/top25.js"></script>
+
+		<hr/>
+
+		<div id="countRankHeader">
+			Top 25 Most-Used Skills for Internet Technology Companies
+		</div>
+		<script type="text/javascript" src="js/src/top_skills.js"></script>
+
+		<hr/>
+
+		<div id="container" style="position: relative;"></div>
+		<script src="js/src/state_skills_datamap.js"></script>
 	</body>
 </html>
