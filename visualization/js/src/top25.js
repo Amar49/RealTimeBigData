@@ -64,7 +64,7 @@ bar.append("rect")
 		.attr("fill", function(d) {
 				var num = 300 - 0.8 * (d.value - 95000) / 50;
 				var color = "rgb(" + 0 + "," + parseInt(num) + "," + parseInt(num) + ")";
-				console.log(color);
+//				console.log(color);
 				return color;
 				});
 

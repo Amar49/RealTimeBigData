@@ -7,15 +7,21 @@
 		<script src="js/lib/topojson.v1.min.js"></script>
 		<script src="js/lib/jquery-1.11.1.min.js"></script>
 		<script src="js/lib/datamaps.usa.min.js"></script>
+		<script src="js/lib/jquery-1.11.1.min.js"></script>
+		<script src="js/lib/highcharts.js"></script>
+		<script src="js/lib/highcharts-3d.js"></script>
+		<script src="js/lib/exporting.js"></script>
+		<script src="js/lib/drilldown.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/stateSkillsStyle.css">
 		<link rel="stylesheet" type="text/css" href="css/top25_chart_style.css">
 		<link rel="stylesheet" type="text/css" href="css/top_skills_style.css">
 	</head>
 	<body>
 		<div id="salaryRankHeader">
-			Top 25 Payed Skills for Internet Technology Companies
+		Top 25 Payed Skills for Internet Technology Companies
 		</div>
-		<script type="text/javascript" src="js/src/top25.js"></script>
+		<div id="containerSalary" style="min-width: 900px; height: 755px; margin: 0 auto"></div>
+		<script src="js/src/top25Salary.js"></script>
 
 		<hr/>
 
@@ -28,5 +34,10 @@
 
 		<div id="container" style="position: relative;"></div>
 		<script src="js/src/state_skills_datamap.js"></script>
+
+		<hr/>
+
+		<div id="containerCPS" style="height: 700px; width: 1400px"></div>
+		<script src="js/src/companyPositionSkills.js"></script>
 	</body>
 </html>
