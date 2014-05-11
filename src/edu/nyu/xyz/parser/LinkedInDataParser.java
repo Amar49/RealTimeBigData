@@ -19,10 +19,14 @@ public class LinkedInDataParser {
 				"/Users/longyang/git/RealTimeBigData/data/linkedin/LinkedInCleanData.json";
 		String companyPositionSkillOutputFilePath =
 				"/Users/longyang/git/RealTimeBigData/data/linkedin/CompanyPositionSkill.json";
+		String inputFilePathBase = "/Users/longyang/git/RealTimeBigData/data/linkedin/linkedin/";
+		String outputFilePathBase = "/Users/longyang/git/RealTimeBigData/data/linkedin/linkedin/out/";
+		for(int i = 1; i <= 9; i++) {
+			String inputFilePath = inputFilePathBase + i + ".json";
+			String outputFilePath = outputFilePathBase + i + ".json";
+//			companyPositionSkills(inputFilePath, outputFilePath);
+		}
 		
-//		companyPositionSkills(
-//				"/Users/longyang/git/RealTimeBigData/data/linkedin/linkedin/9.json", 
-//				"/Users/longyang/git/RealTimeBigData/data/linkedin/linkedin/out/9.json");
 		companyPositionSkill(companyPositionSkillInputFilePath, 
 				companyPositionSkillOutputFilePath);
 	}
@@ -62,7 +66,7 @@ public class LinkedInDataParser {
 			}
 			
 			for (int i = 0; i < inputJsonArray.size(); i++) {
-				System.out.println("Number: " + i);
+//				System.out.println("Number: " + i);
 				Object profile = inputJsonArray.get(i);
 				JSONObject jsonProfile = new JSONObject();
 				JSONObject outputJsonProfile = new JSONObject();
@@ -74,7 +78,22 @@ public class LinkedInDataParser {
 				}
 				JSONArray currentCompany = (JSONArray)jsonProfile.get(ParserConstants.CURRENT_COMPANY);
 				JSONArray currentPosition = (JSONArray)jsonProfile.get(ParserConstants.CURRENT_POSITION);
-				JSONArray skills = (JSONArray)jsonProfile.get(ParserConstants.SUMMARYSPECIALTIES);
+				JSONArray preSkills = (JSONArray)jsonProfile.get(ParserConstants.SUMMARYSPECIALTIES);
+				
+				/*
+				 * Deal with the skills, mainly, we just get the top 5 skills according to the 
+				 * "Endorsements" if we got too many skills from a user's profile.
+				 */
+				JSONArray skills = new JSONArray();
+				if(preSkills != null && !preSkills.isEmpty()) {
+					if(preSkills.size() <= 5) {
+						skills = preSkills;
+					} else {
+						skills.addAll(preSkills.subList(0, 5));
+					}
+				} else {
+					continue;
+				}
 				
 				if (currentCompany != null && currentCompany.size() == 1 ) {
 					outputJsonProfile.put(ParserConstants.COMPANY, (String)currentCompany.get(0));
@@ -139,9 +158,9 @@ public class LinkedInDataParser {
 				for (int j = 0; j < skills.size(); j++) {
 					String skill = (String) skills.get(j);
 					JSONObject outputObject = new JSONObject();
-					outputObject.put(ParserConstants.COMPANY, companyName);
-					outputObject.put(ParserConstants.POSITION, position);
-					outputObject.put(ParserConstants.SKILL, skill);
+					outputObject.put(ParserConstants.COMPANY, filterCompanyName(companyName));
+					outputObject.put(ParserConstants.POSITION, position.toLowerCase());
+					outputObject.put(ParserConstants.SKILL, skill.toLowerCase());
 					outputJsonArray.add(outputObject);
 				}
 			}
@@ -150,6 +169,7 @@ public class LinkedInDataParser {
 					outputJsonArray.size());
 			String companyPositionSkillStr = ParserUtil.getSelfDefinedJSONString(outputJsonArray);
 			FileWriter outputFileWriter = new FileWriter(outputFilePath);
+			reader.close();
 			outputFileWriter.write(companyPositionSkillStr);
 			outputFileWriter.flush();
 			outputFileWriter.close();
@@ -163,5 +183,31 @@ public class LinkedInDataParser {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	private static String filterCompanyName(String companyName) {
+		if(companyName == null || companyName.isEmpty()) {
+			throw new IllegalArgumentException("Input company name should not be null or empty!");
+		}
+		
+		String filteredCompanyName = companyName.toLowerCase();
+		String pattern1 = "(^.+)(, inc.$)";
+		String pattern2 = "(^.+)(,inc.$)";
+		String pattern3 = "(^.+)(, inc$)";
+		String pattern4 = "(^.+)(,inc$)";
+		String pattern5 = "(^.+)( inc$)";
+		String pattern6 = "(^.+)(inc$)";
+		String pattern7 = "(^.+)( inc.$)";
+		String pattern8 = "(^.+)(inc.$)";
+		filteredCompanyName = filteredCompanyName.replaceAll(pattern1, "$1");
+		filteredCompanyName = filteredCompanyName.replaceAll(pattern2, "$1");
+		filteredCompanyName = filteredCompanyName.replaceAll(pattern3, "$1");
+		filteredCompanyName = filteredCompanyName.replaceAll(pattern4, "$1");
+		filteredCompanyName = filteredCompanyName.replaceAll(pattern5, "$1");
+		filteredCompanyName = filteredCompanyName.replaceAll(pattern6, "$1");
+		filteredCompanyName = filteredCompanyName.replaceAll(pattern7, "$1");
+		filteredCompanyName = filteredCompanyName.replaceAll(pattern8, "$1");
+		
+		return filteredCompanyName;
 	}
 }

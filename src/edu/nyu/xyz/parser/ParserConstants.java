@@ -14,10 +14,12 @@ public class ParserConstants {
 	public static String SKILLS = "skills";
 	public static String SKILL = "skill";
 	
+	
 	// 1.2. Constants for input file
 	public static String INFO = "info";
 	public static String META = "meta";
-	public static String INDUSTRY = "Industry";
+	public static String INDUSTRY = "industry";
+	public static String INPUT_INDUSTRY = "Industry";
 	public static String SALARY = "salary";
 	public static String RANGE = "range";
 	public static String ALL = "All";

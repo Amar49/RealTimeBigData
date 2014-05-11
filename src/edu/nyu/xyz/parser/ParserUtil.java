@@ -19,7 +19,7 @@ public class ParserUtil {
 			if(i == jsonArray.size() - 1) {
 				stringBuilder.append(object.toJSONString());
 			} else {
-				stringBuilder.append(object.toJSONString() + ",\n");
+				stringBuilder.append(object.toJSONString() + "\n");
 			}
 		}
 		return stringBuilder.toString();
